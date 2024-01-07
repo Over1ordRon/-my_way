@@ -1,4 +1,9 @@
 this is the right bubble sorting function if you want 
+void swap(int *a, int *b) {
+    int temp = *a;
+    *a = *b;
+    *b = temp;
+}
 Void bubble_sort ( int T [], int N)
 { int i,j ;
 for ( i = N-1 ; i > 0;i--)
